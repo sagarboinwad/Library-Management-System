@@ -1,5 +1,7 @@
 # Library Management System
 
+ Library Management System (LMS) built in Java to automate the management of books in a library. This system helps keep track of books, borrowers, and staff, allowing users to perform operations like adding, updating, deleting books, and issuing books to borrowers. It can be expanded to include advanced features like user authentication, search functionality, and reports.
+
 ## Project Overview
 
 The **Library Management System** is a college-based Java project designed to automate and manage the fundamental operations of a library. This console-based application enables users to add new books, issue books to borrowers, return issued books, and display issue details. Built with simplicity and functionality in mind, this system can be a valuable learning project for beginners and a practical tool for small libraries.
@@ -13,13 +15,34 @@ Image of the project:
 ![](assests/img2.png)
 ![](assests/img3.png)
 ![](assests/img4.png)
-## Features
+Features:
+Book Management:
 
-- **Add New Books**: Capture and store information for each book, including book name, ID, and price.
-- **Issue Books**: Issue available books to borrowers with details on issue and return dates.
-- **Return Books**: Return issued books to make them available for future borrowing.
-- **View Issue Details**: Display details of books that are currently issued, including their issue and return dates.
-- **Exit**: Terminate the program.
+Add new books to the library.
+Update book details (e.g., title, author, and quantity).
+Delete books from the system.
+Borrower Management:
+
+Register borrowers.
+Issue and return books.
+Keep track of borrowed books and due dates.
+Staff Management:
+
+Track staff members and their roles.
+Search Functionality:
+
+Search for books by title, author, or genre.
+Persistent Storage:
+
+Data is stored locally, and the system can be integrated with a database (like MySQL) for real-world applications.
+Table of Contents:
+Requirements
+How to Use
+Features
+Screenshots
+Contributing
+License
+
 
 ## Tech Stack
 
@@ -113,7 +136,7 @@ This project includes:
 - **Project Proposal**: Initial proposal outlining the goals, features, and project scope.
 - **Project Report**: A complete project report with documentation of classes, methods, and usage.
 
-For access to additional documentation or inquiries, contact **sid.website11@gmail.com**.
+
 
 ## Contributing
 
